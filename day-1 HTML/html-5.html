@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My NEW PRACTICE SESSION OF :Table and List ,with its attributes</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <h1>HTML TABLES AND LISTS</h1>
+    <table>
+        <tr>
+            <th>NAME</th>
+            <th>AGE</th>
+            <th>COURSE</th>
+        </tr>
+        <tr>
+            <td>SHIVANSH</td>
+            <td>20</td>
+            <td>BEUNX</td>
+        </tr>
+        <tr>
+            <td>ADITYA</td>
+            <td>21</td>
+            <td>BEUNX-ENTANGLED</td>
+        </tr>
+        <tr>
+            <td>RAHUL</td>
+            <td>22</td>
+            <td>BEUNX-DATA SCIENCE</td>
+    </table>
+    <br><br>
+    <!-- VERTICAL ALIGNMENT -->
+     <hr>
+     <h2>VERTICAL ALIGNMENT IN TABLE</h2>
+     <table>
+        <tr>
+            <th>Name</th>
+            <td>SHIVANSH</td>
+            <td>ADITYA</td>
+            <td>RAHUL</td>
+        </tr>
+        <tr>
+            <th valign="top" rowspan="2">Age</th>
+            <td>20</td>
+            <td>21</td>
+            <td>22</td>
+        </tr>
+        <tr>
+            <th valign="middle" colspan="2">Course</th>
+            <td>BEUNX</td>
+            <td>BEUNX-ENTANGLED</td>
+            <td>BEUNX-DATA SCIENCE</td>
+        </tr>
+     </table>
+        <br><br>    
+    <!-- LIST IN HTML -->
+    <hr>
+    <h2>HTML LISTS</h2>
+    <!-- ORDERED LIST -->
+    <h3>ORDERED LIST</h3>
+    <ol type="A" start="3">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JAVASCRIPT</li>
+    </ol>
+    <br><br>
+    <!-- UNORDERED LIST -->
+    <h3>UNORDERED LIST</h3>
+    <ul type="square">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JAVASCRIPT</li>
+    </ul>
+    <!-- DEFINITION LIST -->
+    <h3>DEFINITION LIST</h3>
+    <dl>
+        <dt>HTML</dt>
+        <dd>Hypertext Markup Language</dd>
+        <dt>CSS</dt>
+        <dd>Cascading Style Sheets</dd>
+        <dt>JAVASCRIPT</dt>
+        <dd>Programming Language</dd>
+    </dl>
+</body>
+</html>
