@@ -5,6 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS First project</title>
     <link rel="stylesheet" href="style-1.css">
+    <style>
+        .noman {
+            border: 2px dashed green;
+            padding: 10px;
+            margin: 10px;
+        }
+        .box-model {
+            width: 300px;
+            padding: 20px; /* space inside the border */
+            border: 5px solid black; /* border thickness and style */
+            margin: 15px; /* space outside the border */
+            background-color: lightgray;
+            text-decoration: underline green double 10px;
+            text-transform: uppercase;
+
+        }
+    </style>
 </head>
 <body>
     <h1 class="highlight">CSS First project</h1>
@@ -16,6 +33,9 @@
     <h1 class = "noman">This is another heading</h1>
     <p class = "noman">This is another paragraph.</p>
     <div class = "noman">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia temporibus odio odit, debitis dignissimos aperiam distinctio? Nobis, libero. Voluptatem, cum! Molestias, excepturi! Laborum necessitatibus dolorum facere corrupti voluptates quasi voluptate.</div>
-
+    <div class="box-model">
+        <h2>Box Model Example</h2>
+        <p>This box demonstrates the CSS box model properties including margin, border, padding, and content area.</p>
+    </div>
 </body>
 </html>
