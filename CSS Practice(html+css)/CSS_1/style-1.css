@@ -1,0 +1,50 @@
+.highlight {
+  background-color: yellow;
+}
+h1 {
+  color: blue;
+}
+p {
+  font-size: 16px;
+}
+.container {
+  width: 80%;
+  margin: auto;
+}
+/* 
+Its your first CSS file
+Create classes and Ids and style them accordingly
+  Add more styles as per your requirement
+*/
+* {
+  box-sizing: border-box;
+  margin: 10px;
+  padding: 20px;
+  background: #0bf2bc;
+  border: 1px solid #000;
+}
+h1.noman {
+  color: rgb(0, 128, 0);
+}
+p.noman {
+  font-size: 20px;
+  color: rgba(128, 0, 128 , 0.7);
+  background-color: aquamarine;
+}
+.noman
+{
+  border: 2px dashed red;
+  font-family: 'Arial', sans-serif;
+  padding: 15px;
+  background-color: #7de86f;
+}
+div {
+  text-align: justify;
+  line-height: 1.6;
+  margin: 10px 0;
+  border: hsl(63, 97%, 46%) solid 3px;
+}
+body {
+  background-color: radial-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);
+
+}
