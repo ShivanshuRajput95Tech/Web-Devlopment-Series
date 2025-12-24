@@ -20,14 +20,20 @@
         <input type="email" placeholder="Enter email"><br><br>
         <input type="number" placeholder="Enter number"><br><br>
         <input type="date"><br><br>
-        <textarea rows="4" cols="50" placeholder="Enter your message here"></textarea><br><br>
+  
+        <textarea rows="4" cols="50" placeholder="Enter your message here">The cat is playing with a ball of yarn.</textarea><br><br>
         <select name="options" id="options" size="3">
             <option value="option1">Option 1</option>
             <option value="option2">Option 2</option>
             <option value="option3">Option 3</option>
             <option value="option4">Option 4</option>
         </select><br><br>
-        <button type="submit">Submit</button><br><br>
+        <button type="submit">Submit</button>
+        <!-- JS reset button (calls resetForm()).
+             There's also a built-in HTML reset: <input type="reset"> which restores initial values.
+        -->
+        <button type="button" onclick ="resetForm()">Reset (JS)</button>
+        <input type="reset" value="Reset (HTML)"><br><br>
         <fieldset>
             <legend>Personal Information</legend>
             <label for="name">Name:</label>
@@ -37,5 +43,31 @@
         </fieldset>
     </form>
     <br><br>
+    <script>
+        // Reset the form to its initial values. This uses the built-in form.reset().
+        // If you want to completely clear every field (remove default values),
+        // see the commented code below.
+        function resetForm() {
+            const form = document.querySelector('form');
+            if (!form) return;
+            // Restore initial values (same as clicking an <input type="reset">)
+            form.reset();
+
+            // Uncomment the block below to fully clear all inputs/selects/textareas instead of restoring initial values.
+            /*
+            form.querySelectorAll('input, textarea, select').forEach(el => {
+                const tag = el.tagName.toLowerCase();
+                const type = el.type && el.type.toLowerCase();
+                if (type === 'checkbox' || type === 'radio') {
+                    el.checked = false;
+                } else if (tag === 'select') {
+                    el.selectedIndex = -1; // no option selected
+                } else {
+                    el.value = '';
+                }
+            });
+            */
+        }
+    </script>
 </body>
 </html>
