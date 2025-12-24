@@ -3,6 +3,13 @@
 }
 h1 {
   color: blue;
+  outline-style: solid;
+  outline-width: 2px;
+  outline-color: blue;
+  outline-offset: 10px;
+  text-indent: 50px;
+  letter-spacing: 10px;
+  word-spacing: 15px;
 }
 p {
   font-size: 16px;
@@ -46,5 +53,7 @@ div {
 }
 body {
   background-color: radial-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);
-
+  border-style: double;
+  opacity: 0.95 ;
+  backdrop-filter: blur(5px);
 }
