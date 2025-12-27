@@ -67,6 +67,23 @@
             height: calc(100vh - 100px);
             text-align: center;
             padding: 20px;
+            flex-wrap: wrap;
+        }
+        main h2{
+            font-size: 30px;
+            test-transform: uppercase;
+        }
+        main p{
+            font-size: 20px;
+            line-height: 1.6;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .content-left, .content-center, .content-right{
+            margin: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
         }
         .content-left h2{
             font-size: 30px;
