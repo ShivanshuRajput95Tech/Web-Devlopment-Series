@@ -3,32 +3,146 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BtoC Ecommerce Site </title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <title>BtoC Ecommerce Site</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style_1.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
 </head>
+
 <body>
-    <header>
-        <div class="header">
-            <div class="header-logo">
-                <a href="#"><img src="/image/canvas.png" alt="Logo" width="150"></a>
-            </div>
-            <div class="header-list">
-                <nav class="header-list-nav">
-                    <ul>
-                        <li><a href="#" class="active">Home</a></li>
-                        <li><a href="#" class="active">Shop</a></li>
-                        <li><a href="#" class="active">About</a></li>
-                        <li><a href="#" class="active">Contact Us</a></li>
-                    </ul>
-                </nav>
-                <div class="header-list-icons">
-                    <a href=""><i class="fa-solid fa-bag-shopping"></i></a>
-                </div>
+
+<!-- ================= HEADER ================= -->
+<header class="header">
+    <div class="header-logo">
+        <a href="#"><img src="images/canvas.png" alt="Website logo"></a>
+    </div>
+
+    <nav class="header-list-nav">
+        <ul>
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <div class="header-list-icon">
+        <a href="#"><i class="fa-solid fa-bag-shopping"></i></a>
+    </div>
+</header>
+
+<main>
+
+<!-- ================= HERO ================= -->
+<section id="hero">
+    <h4>Trade-in-offer</h4>
+    <h2>Super Value Deals</h2>
+    <h1>On All Products</h1>
+    <p>Save More Coupons & Up to 70% Off!</p>
+    <button>Shop Now</button>
+</section>
+
+<!-- ================= FEATURES ================= -->
+<section id="feature">
+    <div class="f-box">
+        <img src="images/features/f1.png" alt="Free Shipping">
+        <h6>Free Shipping</h6>
+    </div>
+    <div class="f-box">
+        <img src="images/features/f2.png" alt="Online Order">
+        <h6>Online Order</h6>
+    </div>
+    <div class="f-box">
+        <img src="images/features/f3.png" alt="Save Money">
+        <h6>Save Money</h6>
+    </div>
+    <div class="f-box">
+        <img src="images/features/f4.png" alt="Promotion">
+        <h6>Promotion</h6>
+    </div>
+    <div class="f-box">
+        <img src="images/features/f5.png" alt="Happy Sell">
+        <h6>Happy Sell</h6>
+    </div>
+    <div class="f-box">
+        <img src="images/features/f1.png" alt="Support">
+        <h6>24x7 Support</h6>
+    </div>
+</section>
+
+<!-- ================= PRODUCTS ================= -->
+<section class="pro-section">
+    <h1>Featured Products</h1>
+    <p>Summer Collection New Modern Design</p>
+
+    <div class="pro-collection">
+        <!-- PRODUCT CARD -->
+        <div class="product-cart">
+            <img src="images/products/f1.jpg" alt="Adidas Astronaut T-shirt">
+            <span>Adidas</span>
+            <h4>Astronaut T-shirt</h4>
+
+            <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
             </div>
 
+            <h4 class="price">$19.99</h4>
+            <a href="#"><i class="fa-solid fa-cart-shopping buy-icon"></i></a>
         </div>
-    </header>
-    
+        <!-- Repeat product cards -->
+    </div>
+</section>
+
+<!-- ================= OFFER BANNER ================= -->
+<section id="off-banner">
+    <h4>Repair Services</h4>
+    <h2>Up to 70% Off – Limited Time Offer</h2>
+    <button class="normal">Explore More</button>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer>
+    <div id="footer">
+
+        <div class="contact">
+            <h3>Contact</h3>
+            <p><strong>Address:</strong> City, Country</p>
+            <p><strong>Phone:</strong> +123 456 789</p>
+            <p><strong>Hours:</strong> 10:00 - 18:00</p>
+        </div>
+
+        <div class="about-us">
+            <h3>About</h3>
+            <a href="#">About Us</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+        </div>
+
+        <div class="my-account">
+            <h3>My Account</h3>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">Help</a>
+        </div>
+
+        <div class="install-app">
+            <h3>Install App</h3>
+            <img src="images/pay/app.jpg" alt="App Store">
+            <img src="images/play.jpg" alt="Google Play">
+        </div>
+
+    </div>
+</footer>
+
+</main>
 </body>
 </html>
