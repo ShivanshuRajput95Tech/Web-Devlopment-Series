@@ -8,10 +8,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 <body>
+    <!-- header section -->
     <header>
         <div class="header">
             <div class="header-logo">
-                <a href="#"><img src="images/canvas.png" alt="LOGO" ></a>
+                <a href="#"><img src="images/logo.png" alt="LOGO" ></a>
             </div>
             <div class="header-list">
                 <nav class="header-list-nav">
@@ -29,41 +30,45 @@
             </div>
         </div>
     </header>
+    <!-- main section  -->
     <main>
-   <section id = "hero">
+   <section id="hero">
     <h4>Trade-in-offer</h4>
     <h2>Super Value Deals</h2>
     <h1>On All Product</h1>
     <p>Save More Coupons & Up to 70% Off!</p>
     <button>Shop Now</button>
     </section>
-    <section id="feature" >
+
+    <section id="feature" class="section-p1">
         <div class="f-box">
             <img src="images/features/f1.png" alt="Free Shiping">
-            <h6>Free Shipping</h6>
+            <h6 style="background-color: lightpink;">Free Shipping</h6>
         </div>
          <div class="f-box">
-            <img src="images/features/f2.png" alt="">
-            <h6>Online Order</h6>
+            <img src="images/features/f2.png" alt="Online Order">
+            <h6 style="background-color: lightgreen;">Online Order</h6>
         </div>
                <div class="f-box">
-            <img src="images/features/f3.png" alt="">
-            <h6>Save Money</h6>
+            <img src="images/features/f3.png" alt="Save Money">
+            <h6 style="background-color: lightblue;">Save Money</h6>
         </div>
                <div class="f-box">
-            <img src="images/features/f4.png" alt="">
-            <h6>Promotion</h6>
+            <img src="images/features/f4.png" alt="Promotion">
+            <h6 style="background-color: lightcoral;">Promotion</h6>
         </div>
         <div class="f-box">
-            <img src="images/features/f5.png" alt="">
-            <h6>Happy Sell</h6>
+            <img src="images/features/f5.png" alt="Happy Selling">
+            <h6 style="background-color: lightgoldenrodyellow;">Happy Selling</h6>
         </div>
         <div class="f-box">
-            <img src="images/features/f1.png" alt="">
-            <h6>24X Support</h6>
-          
+            <img src="images/features/f1.png" alt="24X Support">
+            <h6 style="background-color: lightgray;">24X Support</h6>
+
         </div>
     </section>
+
+
     <section class="pro-section section-p1">
     <h1>Feature Product</h1>
     <p>Summer Collection New Modern Design</p>
@@ -187,12 +192,14 @@
         </div>
         </div>
    </section>
+   <!-- offer banner -->
         <section id="off-banner" class="section-ml">
          <h4>Repair Services</h4>
          <h2>Up to 70% Off - Limited Time Offer!</h2>
          <button class="normal">Explore More</button>
          </section>
-        <section class="pro-section section-p1">
+    <!-- new arrival section -->
+        <section class="pro-section" class ="section-p1">
     <h1>New Arrivals</h1>
     <p>Summer Collection New Modern Design</p>
     <div class="pro-collection">
@@ -315,6 +322,7 @@
         </div>
         </div>
    </section>
+    <!-- banner section -->
    <section id="banner" class="section-p1">
     <div class="big-banner">
         <div class="big-banner-1">
@@ -329,6 +337,7 @@
             <span>The  best classic dress is on the sale </span>
             <button class = "banner-btn">Collection</button>
         </div>
+    </div>
         <div class="small-banner">
             <div class="small-banner-1">
                 <h5>Save 20%</h5>
@@ -348,6 +357,19 @@
         </div>
     </div>
     </section>
+        <!-- newsletter section -->
+    <section id="newsletter">
+        <div class="newsletter-text">
+          <h3>Sign Up For Newsletters</h3>
+          <h5>get e-mail updates about out latest shop and <span>special offers</span></h5>
+        </div>
+        <div class="form">
+          <input type="email" placeholder="Your email address" id="email-address-input">
+          <button>Sign Up</button>
+        </div>
+      </section>
+    </main>
+        <!-- footer section -->
     <footer>
         <div id="footer">
             <div class="contact">
@@ -361,6 +383,7 @@
                 <p><strong>Hours:</strong> 10:00 - 18:00, Mon - Sat</p>
                 <br>
                 <h3>Follow Us</h3>
+                <br>
                 <div class="footer">
                     <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
                     <a href="#"><i class="fa-brands fa-twitter"></i></a>
@@ -369,8 +392,10 @@
                     <a href="#"><i class="fa-brands fa-youtube"></i></a>
                     <a href="#"><i class="fa-brands fa-linkedin"></i></a>
             </div>
+            </div>
             <div class = "about-us">
                 <h3>About Us</h3>
+                <br>
                 <a href="#">About Us</a>
                 <a href="#">Delivery Information</a>
                 <a href="#">Privacy Policy</a>
@@ -387,6 +412,7 @@
             </div>
             <div class="install-app">
                 <h3>Install App</h3>
+                <br>
                 <p>From App Store or Google Play</p>
                 <div class="app-logo">
                     <img src="images/pay/app.jpg" alt="">
@@ -395,7 +421,7 @@
                 <p>Secured Payment Gateways</p>
                 <img src="images/pay/pay.png" alt="">
         </div>
+        </div>
     </footer>
-    </main>
 </body>
 </html>
