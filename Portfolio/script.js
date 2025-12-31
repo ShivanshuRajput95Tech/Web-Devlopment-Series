@@ -1,14 +1,15 @@
 let dayNight = document.querySelector(".daynight");
 let banner = document.querySelector(".banner");
 
-dayNight.addEventListener("click",()=>{
+dayNight.addEventListener("click", () => {
     banner.classList.toggle("night");
+});
 
-})
-let typingEffect = new Typed("text",{
-    string:["StarXBurn","Designer","Youtuber","Influencer","Coder"],
-    loop:true,
-    typeSpeed:100,
-    backSpeed:50,
-    backDelay:1000
-})
+// Advanced Typed.js setup
+var typed = new Typed("#text", {
+    strings: ["StarXBurn", "a Designer", "a Coder", "an Influencer"],
+    typeSpeed: 80,
+    backSpeed: 40,
+    backDelay: 1500,
+    loop: true
+});
